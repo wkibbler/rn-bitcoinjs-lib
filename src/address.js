@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; //npm test
 Object.defineProperty(exports, '__esModule', { value: true });
 const networks = require('./networks');
 const payments = require('./payments');
