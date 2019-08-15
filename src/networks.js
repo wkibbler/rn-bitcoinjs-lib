@@ -11,6 +11,16 @@ exports.bitcoin = {
   scriptHash: 0x05,
   wif: 0x80,
 };
+exports.sin = {
+  messagePrefix: '\x18Bitcoin Signed Message:\n',
+  bip32: {
+    public: 0x043587cf,
+    private: 0x0488ade4
+  },
+  pubKeyHash: 0x3f, // https://dash-docs.github.io/en/developer-reference#opcodes
+  scriptHash: 0x5,
+  wif: 0xbf,
+}
 exports.coffee = {
   messagePrefix: '\x18Bitcoin Signed Message:\n',
   bech32: 'bc',
